@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 230px;
+  min-width: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 20px;
+
+  background-color: #1c1c1c;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.filters {
+  margin-top: 30px;
+}
+
+.filter-text {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.data-ctn {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.data-col {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.data-title {
+  font-size: 12px;
+}
+
+.data-change {
+  font-size: 12px;
+}
+
+.data-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.confirmed {
+  color: #ffa8ba;
+}
+
+.active {
+  color: #67b0ff;
+}
+
+.recovered {
+  color: #7fca8f;
+}
+
+.deceased {
+  color: #bbbfc3;
+}
+
+.last-updated {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
